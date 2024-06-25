@@ -1,18 +1,17 @@
-/* body {
-  text-align: center;
-} */
+* {
+  box-sizing: border-box;
+}
 
-/* p {
-  width: 200px;
-  height: 300px;
-  border: 1px solid red;
+body {
+  margin: 0;
+} 
+
+ p {
+  width: 100%;
+  border: 5px solid red;
   padding: 20px;
-  margin: 10px;
   display: inline-block;
-  /* text-align: right; */
-  /* text-align: initial;
-  vertical-align: top; */
-/* } */ 
+ }  
 
 /* a {
   width: 100px;
@@ -26,11 +25,11 @@
   display: inline-block;
 } */
 
-ul {
+/* ul {
   text-align: center;
-}
+} */
 
-.nav-link-item {
+/* .nav-link-item {
   display: inline;
   }
 
@@ -43,4 +42,4 @@ a {
   width: 70px;
   text-align: center;
   display: inline-block;
-}
+} */
