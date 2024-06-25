@@ -1,8 +1,8 @@
 /* body {
-  text-align: right;
+  text-align: center;
 } */
 
-p {
+/* p {
   width: 200px;
   height: 300px;
   border: 1px solid red;
@@ -10,11 +10,11 @@ p {
   margin: 10px;
   display: inline-block;
   /* text-align: right; */
-  text-align: initial;
-  vertical-align: top;
-}
+  /* text-align: initial;
+  vertical-align: top; */
+/* } */ 
 
-a {
+/* a {
   width: 100px;
   height: 50px;
   border: 1px solid green;
@@ -24,8 +24,23 @@ a {
   text-decoration: none;
 
   display: inline-block;
+} */
+
+ul {
+  text-align: center;
 }
 
 .nav-link-item {
   display: inline;
   }
+
+a {
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid gray;
+  padding: 15px 25px;
+  margin: 0 20px;
+  width: 70px;
+  text-align: center;
+  display: inline-block;
+}
